@@ -9,6 +9,8 @@ public class UserProfile implements Serializable {
 	private String name;
 	private int gender;
 	private String birthday;
+	private String reviews;
+	private String ratings;
 	private String email;
 	private String secondEmail;
 	
@@ -51,6 +53,22 @@ public class UserProfile implements Serializable {
 	
 	public void setBirthday(String birthday) {
 		this.birthday = birthday;
+	}
+	
+	public String getReviews() {
+		return reviews;
+	}
+	
+	public void setReviews(String reviews) {
+		this.reviews = reviews;
+	}
+	
+	public String getRatings() {
+		return ratings;
+	}
+	
+	public void setRatings(String ratings) {
+		this.ratings = ratings;
 	}
 	
 	public String getEmail() {
