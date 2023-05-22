@@ -9,6 +9,8 @@ public class UserProfile implements Serializable {
 	private String name;
 	private int gender;
 	private String birthday;
+	private String nationality;
+	private String drivingLicense;
 	private String email;
 	private String secondEmail;
 	
